@@ -25,5 +25,4 @@ for ci=1:Nci
     end
 end
 
-% fileName = ['APbyCV_' mat2str(max(TrIDs)/1000) 'k_' mat2str(N) 'fold.mat'];
 save(fileName,'AP');
