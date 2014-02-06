@@ -20,6 +20,7 @@ concept and -1 otherwise.
 
 VisualKernelFileName file including the training kernel for calculating
 the maturity feature - based on visual features
+
 TextualKernelFileName: file including the training kernel for calculating
 the reliability feature - based on the textual features, i.e. oracle
 
@@ -29,6 +30,7 @@ Input - Give features as input
 
 maturityFileName: file including the maturity of a classifier as a matrix
 of dimensions #concepts x # CV folds (matrix name should be AP)
+
 maturityFileName: file including the reliability of a classifier as a
 matrix of dimensions #concepts x # CV folds (matrix name should be AP)
 
